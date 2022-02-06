@@ -273,7 +273,7 @@ FULL JOIN selects records that have a match in the left or right table. Think of
  FULL OUTER JOIN orders
  ON customers.customer_id = orders.customer_id;
 ```
-### 5. SQL Self Join
+### 5. SQL SELF JOIN
 
 A self join is a regular join, but the table is joined with itself.
 ```
