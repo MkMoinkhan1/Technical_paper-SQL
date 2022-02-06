@@ -1,17 +1,17 @@
 
-# 🔗 SQL (Structured Query Language)
+# SQL (Structured Query Language)
 
 SQL (Structured Query Language) is a standardized programming language that's used to manage relational databases and perform various operations on the data in them. Initially created in the 1970s, SQL is regularly used not only by database administrators, but also by developers writing data integration scripts and data analysts looking to set up and run analytical queries.
 
 
-## 🔗 Why Is SQL Popular?
+## Why Is SQL Popular?
 
 The data trail we create every single day as we jump between apps, sites and social platforms  is being mined by companies for various uses. But data in its raw form is useless without data analysts.
 
 These professionals use programming languages like SQL to organize and analyze large data sets. In doing so, they’re able to derive information and correlations that can be turned into business insights, which in turn can help companies grow their business. As this pile of data grows larger by every passing second, so too does the demand for people who are skilled in SQL.
 
 
-## 🔗 A Few Good Reasons to Master SQL
+## A Few Good Reasons to Master SQL
 
 Before you invest time in learning SQL, you probably want to be certain that it’s going to be worthwhile. We’ve put together a list below of the top reasons why learning SQL is a good idea
 
@@ -40,7 +40,7 @@ Proprietary and open source relational database management systems built around 
 - PostgreSQL 
 
 
-## 🔗 SQL Process
+## SQL Process
 
 
 
@@ -54,23 +54,11 @@ Important components included in this SQL process are:
 - Classic Query Engine
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 A classic query engine allows you to manage all the non-SQL queries.
 
-![SQL Process](https://www.guru99.com/images/sql-tutorial.png)
+![SQL Image](https://www.guru99.com/images/sql-tutorial.png)
 
-## 🔗 Understanding  the SQL Commands
+## Understanding  the SQL Commands
 
 ![SQL Commands](https://149695847.v2.pressablecdn.com/wp-content/uploads/2019/06/tabe.png)
 
@@ -84,7 +72,7 @@ A classic query engine allows you to manage all the non-SQL queries.
 
 **Transaction Control Language (TCL)**: TCL commands such as commit, rollback and savepoint is used for managing transactions in the database.
 
-## 🔗 SQL Commands: Data Definition Language Commands (DDL)
+## SQL Commands: Data Definition Language Commands (DDL)
 
 ### 1. CREATE
 
@@ -156,7 +144,7 @@ This command is used to delete the information present in the table but does not
  TRUNCATE TABLE TableName;
 
 ```
-## 🔗 SQL Commands: Data Manipulation Language Commands (DML)
+## SQL Commands: Data Manipulation Language Commands (DML)
 
 This section of the article will give you an insight into the commands through which you can manipulate the database. The commands are as follows:
 
@@ -185,7 +173,7 @@ DELETE can remove all rows from a table (using ), or can be used as part of a WH
  WHERE name = ‘Bob’;
 ```
 
-## 🔗 SQL Commands: Data Control Language Commands (DCL)
+## SQL Commands: Data Control Language Commands (DCL)
 
 This section of the article will give you an insight into the commands which are used to enforce database security in multiple user database environments. The commands are as follows:
 
@@ -207,7 +195,7 @@ This command is used to withdraw the user’s access privileges given by using t
  ON ObjectName 
  FROM {UserName |PUBLIC |RoleName}
 ```
-## 🔗 SQL Commands: Data Query Language (DQL):
+## SQL Commands: Data Query Language (DQL):
 The DQL command such as select is used for retrieving data from the database. The commands are as follows:
 
 ### 1. SELECT
@@ -220,7 +208,7 @@ SELECT is probably the most commonly-used SQL statement. You’ll use it pretty 
 
  SELECT * FROM customers;
 ```
-## 🔗 SQL Commands: Transaction Control Language Commands (TCL)
+## SQL Commands: Transaction Control Language Commands (TCL)
 
 This section of the article will give you an insight into the commands which are used to manage transactions in the database. The commands are as follows:
 
@@ -245,7 +233,7 @@ This command is used to temporarily save a transaction.  So if you wish to rollb
  SAVEPOINT SAVEPOINTNAME;
 
 ```
-## 🔗 SQL JOIN
+## SQL JOIN
 
 A JOIN clause is used to combine rows from two or more tables, based on a related column between them.
 
@@ -294,7 +282,7 @@ A self join is a regular join, but the table is joined with itself.
  WHERE condition;
 ```
 
-## 🔗 SQL Aggregation:
+## SQL Aggregation:
 SQL aggregation is the task of collecting a set of values to return a single value. It is done with the help of aggregate functions, such as SUM, COUNT, and AVG. For example, in a database of products, you might want to calculate the average price of the whole inventory.
 ### How is it used?
 
@@ -342,7 +330,7 @@ The SUM function returns the total sum of a numeric column that you choose.
  FROM TableName
  WHERE Condition;
 ```
-### 5. AVG() Function
+### 5. AVG Function
 
 The AVG function returns the average value of a numeric column that you choose.
 ```
@@ -352,7 +340,7 @@ The AVG function returns the average value of a numeric column that you choose.
 
 ```
 
-## 🔗 SQL Commands: Different Types Of Keys In Database
+## SQL Commands: Different Types Of Keys In Database
 
 There are mainly 7 types of Keys, that can be considered in a database. I am going to consider the below tables to explain to you the various keys.
 
@@ -375,7 +363,7 @@ There are mainly 7 types of Keys, that can be considered in a database. I am goi
 - **Composite Key** – A composite key is a combination of two or more columns that identify each tuple uniquely. Here, the Employee_ID and Month-Year_Of_Salary can be grouped together to uniquely identify every tuple in the table.
 
 
-## 🔗 References
+## References
 
    1. https://www.edureka.co/blog/sql-commands
    2. https://www.w3schools.com/sql/sql_join_self.asp
